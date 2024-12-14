@@ -40295,8 +40295,8 @@ j=e.y?j+o/n*m*60:j-o/l*k*60
 i=B.c.cT(j,3600)
 h=B.c.cT(B.c.bw(j,3600),60)
 g=B.c.bw(j,60)
-d=A.i(h===0?"00":h)
-e.x=""+i+":"+d+":"+A.i(g===0?"00":g)
+d=A.i(B.h.k(h).length===1?"0"+h:h)
+e.x=""+i+":"+d+":"+A.i(B.c.k(g).length===1?"0"+A.i(g):g)
 e.ah()}},
 $S:0}
 A.CS.prototype={
